@@ -5,12 +5,18 @@ Wild code school's exercice : display few images form Pixabay with the Bootstrap
 ## INSTALL ME ##
 
 ```bash 
-git clone https://www.github.com/LouisBruge/galleryPixabay
+git clone https://github.com/LouisBruge/galleryPixabay.git
 cd galleryPixabay
+
+// Install dependencies
 cd vendor
-wget ...
-wget ...
-wget ...
+wget https://github.com/fancyapps/fancybox/archive/master.zip
+unzip master.zip && rm master.zip
+
+wget https://code.jquery.com/jquery-3.3.1.js
+
+wget https://github.com/twbs/bootstrap/releases/download/v4.0.0/bootstrap-4.0.0-dist.zip
+unzip bootstrap-4.0.0-dist.zip && rm bootstrap-4.0.0-dist.zip
 ```
 
 
