@@ -6,6 +6,7 @@ let type = 'photo'
 let category = 'food'
 let order = 'lastest'
 let lang = 'fr'
+let result = '200'
 
 // module to insert images
 let insertImage = function (response) {
@@ -26,7 +27,7 @@ let insertImage = function (response) {
 const http = new XMLHttpRequest()
 
 // create a new request
-let req = `https://pixabay.com/api/?key=${key}&q=${query}&lang=${lang}&orientation=${orientation}&image_type=${type}&category=${category}&order=${order}`
+let req = `https://pixabay.com/api/?key=${key}&q=${query}&lang=${lang}&orientation=${orientation}&image_type=${type}&category=${category}&order=${order}&per_page=${result}`
 
 http.open('GET', req, true)
 
