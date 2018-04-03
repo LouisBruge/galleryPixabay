@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang='en'>
+        <head>
+            <meta charset="utf-8">
+            <title> Main gallery </title>
+
+            <!-- Bootstrap 4.0.0 library CSS -->
+            <link rel="stylesheet" href="../vendor/bootstrap-4.0.0/css/bootstrap.css">
+
+            <!-- FancyBox library CSS -->
+            <link rel="stylesheet" href="../vendor/fancybox-master/dist/jquery.fancybox.css">
+
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html" class="navbar-brand">Gallery</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> In build </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <section id="gallery">
+                <div class="container">
+                    <div class="row" id="galleryRow">
+                        <!-- The personnel script will insert new elements here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- JQuery 3.3.1 library JS -->
+            <script src="../vendor/jquery-3.3.1.js"></script>
+
+            <!-- Bootstrap 4.0.0 library JS -->
+            <script src="../vendor/bootstrap-4.0.0/js/bootstrap.js"></script>
+
+            <!-- Fancybox library JS -->
+            <script src="../vendor/fancybox-master/dist/jquery.fancybox.js"></script>
+
+            <!-- Insert here, a personnel script that insert images inside the galleryRow -->
+            <script src="js/galleryDisplayer.js"></script>
+        </body>
+    </html>
