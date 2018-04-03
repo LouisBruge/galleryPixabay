@@ -38,4 +38,4 @@ unzip bootstrap-4.0.0-dist.zip && rm bootstrap-4.0.0-dist.zip
 L. Bruge
 
 ## Last Version ##
-1.0.0 2/04/2018
+1.0.0 3/04/2018
